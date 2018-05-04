@@ -58,13 +58,15 @@ let make = (_children) => {
     )
   ],
   render: (self) =>
-    <div>
-     <ul>
-      <li><Link href="about"> {str("About")}</Link></li>
-      <li><Link href="blog"> {str("Blog")}</Link></li>
-      <li><Link href="acticle"> {str("Acticle")}</Link></li>
-      </ul>
-      <div>
+    <div className="container_wrapper">
+      <div className="nav_wrapper">
+        <ul className="nav">
+          <li><Link href="about"> {str("About")}</Link></li>
+          <li><Link href="blog"> {str("Blog")}</Link></li>
+          <li><Link href="acticle"> {str("Acticle")}</Link></li>
+        </ul>
+      </div>
+      <div className="container">
         (
           switch self.state.route {
           | About => <About name="This is about Page" />

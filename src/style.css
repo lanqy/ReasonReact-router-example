@@ -1,0 +1,11 @@
+body{background: #fff;text-align: center}
+img {height: 96px;}
+*{margin:0;padding:0;}
+li{list-style: none;}
+.container_wrapper{margin:0 auto;}
+.container{padding: 83px; font-size: 3rem;}
+.nav_wrapper{background: #000;height:80px;line-height: 80px;}
+.nav{display: flex;background: #000;height:80px;line-height: 80px;width:860px;margin: 0 auto;}
+.nav li{flex:1;}
+.nav li a{color: #fff;text-decoration: none;display: block;font-size:25px;}
+.nav li a:hover{background:#3e3d3d }
